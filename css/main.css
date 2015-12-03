@@ -1,0 +1,57 @@
+.me-photo {
+
+	width: 320px;
+	height: 290px;
+	border-radius: -321px;
+	-webkit-border-radius: 156px;
+	-moz-border-radius: 130px;
+	float:left;
+	zoom:70%;
+	margin-left: 30px;
+}
+
+.cont1 {
+	height: 100px;
+	font-family: 'futura';
+
+}
+
+
+#mainContent {
+
+	width: 70%;
+	height: 300px;
+	background: #666;
+    border: 1px solid #000;
+    margin:100px auto;
+    padding:0 20px 0 20px;
+
+}
+
+.skills {
+	color:red;
+}
+
+.github {
+	color:blue;
+}
+
+.socialMedia {
+	color:green	;
+}
+
+
+.bold {
+	font-weight: bold;
+	color: #B22D33;
+
+}
+
+.blue {
+	color:blue;
+	font-weight: bold;
+}
+
+.kh.header {
+	color: red !important;
+}
