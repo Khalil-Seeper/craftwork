@@ -1,50 +1,68 @@
 .me-photo {
 
 	width: 320px;
-	height: 290px;
+	height: 320px;
 	border-radius: -321px;
-	-webkit-border-radius: 156px;
-	-moz-border-radius: 130px;
 	float:left;
-	zoom:70%;
 	margin-left: 30px;
-}
-
-.cont1 {
-	height: 100px;
-	font-family: 'futura';
-
 }
 
 
 #mainContent {
 
 	width: 70%;
-	height: 300px;
+	height: 340px;
 	background: #666;
-    border: 1px solid #000;
+    border: 1px solid #FC0;
     margin:100px auto;
     padding:0 20px 0 20px;
 
 }
 
+
+
+.cont1 {
+	width: 100%;
+	border:2px solid yellow;
+	margin: 0% auto;
+	height:100px;
+	padding-bottom: 40px;
+	text-align: left;
+	color: white;
+	font-family: 'futura';
+}
+
+/*.navbar-brand {*/
+	/*text-align: center;*/
+	/*border:2px solid red;*/
+
+
 .skills {
 	color:red;
-}
+	border:2px solid grey;
+}	
+
 
 .github {
 	color:blue;
+	border:2px solid grey;
 }
 
 .socialMedia {
 	color:green	;
+	border:2px solid grey;
 }
 
 
 .bold {
 	font-weight: bold;
-	color: #B22D33;
+	color:#B22D33;
 
+}
+
+.bold:hover {
+	
+	color:black;
 }
 
 .blue {
@@ -52,6 +70,29 @@
 	font-weight: bold;
 }
 
-.kh.header {
-	color: red !important;
+
+.blue:hover {
+	color:black;
+	
 }
+
+h2 {
+	color: black;
+	font-size: 57px;
+}
+
+h1:hover{
+	color: grey;
+}
+
+.my-quote {
+	border:2px solid red;
+	max-width: 700px;
+	max-height: 400px;
+	float:right;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 45px;
+
+}
+
