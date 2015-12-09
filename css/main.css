@@ -8,21 +8,35 @@
 
 }
 
+.me-photo:hover {
+	border:3px solid black;
+}
+
 
 #mainContent {
 
-	width: 70%;
-	height: 340px;
-	background: #666;
+	width: 90%;
+	min-height: 400px;
+	background: white;
     border: 3px solid #60D7FF;
     margin:100px auto;
     padding:0 20px 0 20px;
+    border-radius: 25px;
 
+}
+
+#mainContent:hover {
+	border:3px solid black;
+}
+
+.videoMe {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
 }
 
 .my-newnav {
 	/*border: 4px solid red;*/
-	text-align: left;
 	border-bottom:5px solid #60D7FF;
 }
 
@@ -41,20 +55,41 @@
 	text-decoration: none;
 }
 
-/*.navbar-brand {*/
-	/*text-align: center;*/
-	/*border:2px solid red;*/
 
 
 .skills {
 	color:black;
 	border:4px solid #60D7FF;
+	padding-bottom: 44px;
 }	
+
+.skills:hover {
+	border:4px solid black;
+}
+
+.skills h3 {
+	color:red;
+}
 
 
 .github {
 	color:black;
 	border:4px solid #60D7FF;
+	padding-bottom: 10px;
+
+}
+
+.github h3{
+	color: #411C66;
+	padding-bottom: 10px;
+}
+
+.github:hover {
+	border:4px solid #411C66;
+}
+
+.mygithub {
+	background-color: #411C66;
 }
 
 .socialMedia {
@@ -62,10 +97,18 @@
 	border:4px solid #60D7FF;
 }
 
+.socialMedia h3 {
+	color: #60D7FF;
+}
+
+.socialMedia:hover {
+	border:4px solid black;
+}
+
 
 .bold {
 	font-weight: bold;
-	color:#B22D33;
+	color:black;
 
 }
 
@@ -94,7 +137,7 @@ h3 {
 	font-weight: bold;
 }
 h4 { 
-	color: white;
+	color: black;
 	margin:0px auto;
 }
 
@@ -104,38 +147,53 @@ h3:hover {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #60D7FF;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #60D7FF;
+	color: white;
 }
 
 
 .my-quote {
 	border:4px solid #60D7FF;
 	max-width: 700px;
-	max-height: 350px;
+	min-height: 230px;
 	float:right;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	margin-top: 75px;
 	border-radius: 40px;
-	color: #60D7FF;
-	background-color: black;
+	color: black;
+	background-color: white;
 
+
+}
+
+
+.my-quote:hover{
+	border:4px solid black;
+	background-color: white;
 }
 
 /*jumbotron container 1*/
 .main-cont {
 	padding-bottom: 10px;
+}
 
+.thatsMe {
+margin-top: 35px;
+}
+
+
+.thatsMe:hover{
+	color: grey;
 }
 
 
 .linkedin {
-	background-color: blue;
+	background-color:#60D7FF;
 	color: white;
 
 }
@@ -144,3 +202,16 @@ a:hover {
 	padding-top: 20px;
 }
 
+
+.cont2 {
+	/*background: white;*/
+
+}
+
+.checkReel:hover {
+	color:#60D7FF;
+}
+
+.getinTouch {
+	color: black;
+}
