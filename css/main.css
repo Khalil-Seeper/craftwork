@@ -3,34 +3,36 @@
 	width: 340px;
 	border-radius: 30px;
 	float:left;
-	margin:74px 10px 20px 5px;
-	border:3px solid #60D7FF;
+	margin:74px 10px 20px 10px;
+	/*border:3px solid #60D7FF;*/
 
 }
 
 .me-photo:hover {
-	border:3px solid black;
+	/*webkit-filter: blur 5%;*/
+	/*border:3px solid black;*/
 }
 
 
 #mainContent {
 
 	width: 90%;
-	min-height: 400px;
+	min-height: 300px;
 	background: white;
-    border: 3px solid #60D7FF;
+    border: 0px solid #60D7FF;
     margin:100px auto;
     padding:0 20px 0 20px;
     border-radius: 25px;
+    font-size: 1.15em;
 
 }
 
-#mainContent:hover {
-	border:3px solid black;
-}
+/*#mainContent:hover {*/
+	/*border:3px solid black;*/
+/*}*/
 
 .videoMe {
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 50px;
 	
 }
@@ -59,51 +61,60 @@
 
 .skills {
 	color:black;
-	border:4px solid #60D7FF;
+	border:0px solid #60D7FF;
 	padding-bottom: 44px;
+	border-radius: 25px;
 }	
 
 .skills:hover {
-	border:4px solid black;
+	/*border:4px solid black;*/
 }
 
 .skills h3 {
-	color:red;
+	color:black;
 }
 
 
 .github {
 	color:black;
-	border:4px solid #60D7FF;
+	border:0px solid #60D7FF;
 	padding-bottom: 10px;
+	border-radius: 25px;
 
 }
 
 .github h3{
-	color: #411C66;
+	color: black;
 	padding-bottom: 10px;
 }
 
 .github:hover {
-	border:4px solid #411C66;
+	/*border:4px solid #411C66;*/
 }
 
 .mygithub {
-	background-color: #411C66;
+	background-color: #7D0541;
+	width:100px;
+}
+
+.mygithub:hover {
+	color: white;
+	font-weight: bold;
 }
 
 .socialMedia {
 	color:black;
-	border:4px solid #60D7FF;
+	border:0px solid blue;
+	border-radius: 25px;
 }
 
 .socialMedia h3 {
-	color: #60D7FF;
+	color: black;
 }
 
-.socialMedia:hover {
-	border:4px solid black;
-}
+/*.socialMedia:hover {*/
+	/*border:4px solid black;*/
+/*}*/
 
 
 .bold {
@@ -147,7 +158,7 @@ h3:hover {
 
 a {
 	text-decoration: none;
-	color: #60D7FF;
+	color: white;
 }
 
 a:hover {
@@ -157,7 +168,7 @@ a:hover {
 
 
 .my-quote {
-	border:4px solid #60D7FF;
+	/*border:4px solid #60D7FF;*/
 	max-width: 700px;
 	min-height: 230px;
 	float:right;
@@ -166,15 +177,45 @@ a:hover {
 	margin-top: 75px;
 	border-radius: 40px;
 	color: black;
-	background-color: white;
-
+	/*background-color: white;*/
 
 }
 
 
+
+.bq3 { 
+	
+	background: url('http://i47.tinypic.com/a9l0g3.png')
+	top left no-repeat;
+	padding-left: 35px; 
+	line-height: 18px;
+	color: #575757;
+	float:right;
+	max-width: 700px;
+	min-height: 230px;
+	margin-top:40px;
+	border:none;
+
+	
+	 }
+
+.bq3 p {
+  padding-bottom: 25px;
+  padding-right: 35px;
+  padding-left: 35px;
+  line-height: 24px; 
+  background: url('http://i48.tinypic.com/eb1yrr.png') 
+  bottom right no-repeat; 
+  padding-bottom: 40px; 
+  color: #333; 
+  font-size: 20px; 
+  padding-top: 40px;
+}
+
+
 .my-quote:hover{
-	border:4px solid black;
-	background-color: white;
+	/*border:4px solid white;*/
+	background-color: none;
 }
 
 /*jumbotron container 1*/
@@ -193,8 +234,15 @@ margin-top: 35px;
 
 
 .linkedin {
-	background-color:#60D7FF;
+	background-color:#0059FF;
 	color: white;
+	text-align: center;
+
+}
+
+.linkedin:hover {
+	color:white;
+	font-weight: bold;
 
 }
 
@@ -208,10 +256,27 @@ margin-top: 35px;
 
 }
 
-.checkReel:hover {
-	color:#60D7FF;
+.checkReel {
+	padding-top: 80px;
+	padding-bottom:10px;
+	
 }
+
+/*.checkReel:hover {*/
+	/*color:#60D7FF;*/
+/*}*/
 
 .getinTouch {
 	color: black;
+	padding:50px auto;
+}
+
+.mainContentClass {
+	border:2px solid black;
+}
+
+.callNew {
+	color:#60D7FF;
+	width: 40px;
+	height:40px;
 }
