@@ -123,9 +123,9 @@
 
 }
 
-.bold:hover {
-	color:#60D7FF;
-}
+/*.bold:hover {*/
+	/*color:#60D7FF;*/
+/*}*/
 
 .blue {
 	color:#60D7FF;
@@ -225,11 +225,12 @@ a:hover {
 
 .thatsMe {
 margin-top: 35px;
+color:grey;
 }
 
 
 .thatsMe:hover{
-	color: grey;
+	color: black;
 }
 
 
@@ -278,4 +279,9 @@ margin-top: 35px;
 .callNew {
 	color:#60D7FF;
 	font-size: 80px;
+}
+
+.callNew:hover {
+	color: black;
+
 }
